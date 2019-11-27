@@ -41,7 +41,7 @@ header li {
   flex-wrap: wrap;
 }
 .item {
-  margin: 10px;
+  margin: 15px;
   width: 200px;
   flex-grow: 1;
   flex-basis: 150px;
