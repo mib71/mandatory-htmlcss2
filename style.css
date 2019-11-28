@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: black;
+  color: antiquewhite;
 }
 
 header {
@@ -11,7 +13,7 @@ header ul {
   list-style: none;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /*def värde*/
 }
 
 header li {
@@ -51,7 +53,7 @@ header li {
   width: 100%;
 }
 .item:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 @media (max-width: 700px) {
   .navbar {
